@@ -43,7 +43,7 @@ To predict stock prices I used the Prophet() model developed by the Data Science
 ## Back testing trading strategies: 
 To compare and make sure a strategy is profitable you need to compare different timeframes in different market conditions. In this study I explored Bitcoin's price and tried different buying and selling conditions. I tried using the 15m timeframe, the 1h timeframe and the 4h timeframe, but I finally decided that the most profitable one would be the one implemented to the trading bot. 
 
-<img src="images/bot.png" width="1200" height="400">
+<img src="images/bot.png" width="1000" height="500">
 
 ## Trading Bot:
 I connected to my Bybit's account via an API token and managed to implement the strategy tested with a small change, limiting risks to 2% per trade max.
