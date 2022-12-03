@@ -1,8 +1,10 @@
 # Final Project - Introduction to Algorithmic Trading 
 
+<img src="images/algorithm.webp" width="1440" height="400">
+
 ## Introduction: 
 The idea behind this project is to:
-- Analyze the current US economy, exploring data from TradingView. 
+- Analyze the current US economy, exploring the data from TradingView. 
 - Make predictions of the U.S. stock market (S&P 500 and NASDAQ 100), Gold and Bitcoin, fitting the Prophet() model.
 - Back test and create a profitable trading strategy.
 - Implement the Trading Strategy, deploying a crypto trading bot, connected to Bybit's API.
@@ -40,6 +42,8 @@ To predict stock prices I used the Prophet() model developed by the Data Science
 
 ## Back testing trading strategies: 
 To compare and make sure a strategy is profitable you need to compare different timeframes in different market conditions. In this study I explored Bitcoin's price and tried different buying and selling conditions. I tried using the 15m timeframe, the 1h timeframe and the 4h timeframe, but I finally decided that the most profitable one would be the one implemented to the trading bot. 
+
+<img src="images/bot.png" width="1200" height="400">
 
 ## Trading Bot:
 I connected to my Bybit's account via an API token and managed to implement the strategy tested with a small change, limiting risks to 2% per trade max.
