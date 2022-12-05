@@ -16,44 +16,51 @@ The idea behind this project is to:
 
 ## Variables: 
 The variables used to analyze market conditions are split in four cycles: 
-- **Credit Cycle**: 
+1. **Credit Cycle**: 
     - 10Y Bond minus 2Y Bond Spread
     - Interest Rates
     - Dollar index (DXY)
     - Volatility index (VIX)
-    
 
-    <img src="images/bonds_pmi.png" width="1000" height="800">
+        ##### *Comparison between PMI and US bond Spreads* 
+        
 
-- **Growth Cycle**: 
+    <img src="images/bonds_pmi.png" width="1200" height="600">
+
+2.  **Growth Cycle**: 
     - Gross Domestic Product (GDP) Change YoY
     - Manufacturing Purchasing Managers Index (PMI)
     - Unemployment Rate
 
+        ##### *Comparison between PMI, GDP Change YoY, Unemployment Rate, CPI Change YoY*
 
-    <img src="images/deflation.png" width="1000" height="800">
+    <img src="images/deflation.png" width="1200" height="600">
 
-- **Inflation Cycle**:
+3. **Inflation Cycle**:
     - Consumer Price Index (CPI) Change YoY
 
+        ##### *Comparison between Interest Rates, Monetary Supply (M2) and CPI Change YoY*
 
-    <img src="images/m2_int_cpi.png" width="1000" height="800">
+    <img src="images/m2_int_cpi.png" width="1200" height="500">
 
-- **Liquidity Cycle**: 
+4. **Liquidity Cycle**: 
     - Monetary Supply (M2)
 
+        ##### *Comparison between Monetary Supply (M2) and Asset Price Changes within time*
 
-    <img src="images/assets evolution vs m2.png" width="1000" height="800">
+    <img src="images/assets evolution vs m2.png" width="1200" height="600">
 
 ## Assets:
 The assets for which I will predict their future price are:
-- Bitcoin
-- SP 500 index
-- NASDAQ 100 index
-- Gold
+- Bitcoin (BTC)
+- SP 500 index (SP 500)
+- NASDAQ 100 index (NDX 100)
+- Gold (Gold)
 
 ## Prediction Model:
-To predict stock prices I used the Prophet() model developed by the Data Science Team of Facebook. You will find the predictions inside the prediction_model folder.
+To predict stock prices I used the Prophet() model developed by the Data Science Team of Facebook. You will find the predictions inside the prediction_model folder. 
+
+I attach below the Bitcoin price Prediction in 60 days, its looking bearish!!!
 
 <img src="images/btc_prediction.png" width="500" height="100">
 
