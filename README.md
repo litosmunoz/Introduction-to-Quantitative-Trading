@@ -61,6 +61,13 @@ The strategy implemented is the first strategy contemplated and visualized in th
 
 <img src="images/bot.png" width="1000" height="500">
 
+## Results: 
+
+Since the beginning of October 2022 until late November 2022 (2 months), this strategy would have executed 6 trades. The first trade was a losing trade, but the next 5 were winning trades. 
+Win ratio: 5/6
+Profitability: 12,63%
+
+
 <img src="images/results.png" width="400" height="250">
 
 ## Trading Bot:
