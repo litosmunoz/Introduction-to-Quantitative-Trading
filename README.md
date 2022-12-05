@@ -66,7 +66,7 @@ I attach below the Bitcoin price Prediction in 60 days, its looking bearish!!!
 
 <img src="images/btc.png" width="1200" height="600">
 
-### What I thought when deciding to create the trading strategy:
+### What I thought about when deciding to create the trading strategy:
 
 Looking at the economic variables and the forecasted outlook of asset prices, I decided that I wanted to catch small bounces in price movements when the asset (in this case, Bitcoin) reaches really oversold levels. 
 
@@ -89,7 +89,7 @@ The strategy implemented is the first strategy contemplated and visualized in th
 
 ## Results: 
 
-Since the beginning of October 2022 until late November 2022 (2 months), this strategy would have executed 6 trades. The first trade was a losing trade, but the next 5 were winning trades.
+Since late September 2022 until late November 2022 (2 months), this strategy would have executed 6 trades. The first trade was a losing trade, but the next 5 were winning trades.
 
 - Win ratio: 5/6
 - Profitability: 12,63%
@@ -110,6 +110,3 @@ The selling conditions will be:
 - RSI > 45 (indicator no longer shows oversold conditions)
 - Buyprice * 1.02 (2% gain in price movement) - The original strategy does not have this (........but it is a good indicator of taking profits!!!)
 - Buyprice * 0.98 (2% loss in price movement) - The original strategy does not have this (........but it is a good way to manage risks to the downside!!!)
-
-
-
