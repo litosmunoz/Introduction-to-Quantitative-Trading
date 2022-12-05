@@ -21,18 +21,29 @@ The variables used to analyze market conditions are split in four cycles:
     - Interest Rates
     - Dollar index (DXY)
     - Volatility index (VIX)
+    
+
+    <img src="images/bonds_pmi.png" width="1000" height="800">
 
 - **Growth Cycle**: 
     - Gross Domestic Product (GDP) Change YoY
     - Manufacturing Purchasing Managers Index (PMI)
     - Unemployment Rate
 
+
+    <img src="images/deflation.png" width="1000" height="800">
+
 - **Inflation Cycle**:
     - Consumer Price Index (CPI) Change YoY
+
+
+    <img src="images/m2_int_cpi.png" width="1000" height="800">
 
 - **Liquidity Cycle**: 
     - Monetary Supply (M2)
 
+
+    <img src="images/assets evolution vs m2.png" width="1000" height="800">
 
 ## Assets:
 The assets for which I will predict their future price are:
